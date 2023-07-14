@@ -1,0 +1,8 @@
+D:\Simplilearn classes\day5\Assignment7\Assignment7\bin\Debug\Assignment7.exe.config
+D:\Simplilearn classes\day5\Assignment7\Assignment7\bin\Debug\Assignment7.exe
+D:\Simplilearn classes\day5\Assignment7\Assignment7\bin\Debug\Assignment7.pdb
+D:\Simplilearn classes\day5\Assignment7\Assignment7\obj\Debug\Assignment7.csproj.AssemblyReference.cache
+D:\Simplilearn classes\day5\Assignment7\Assignment7\obj\Debug\Assignment7.csproj.SuggestedBindingRedirects.cache
+D:\Simplilearn classes\day5\Assignment7\Assignment7\obj\Debug\Assignment7.csproj.CoreCompileInputs.cache
+D:\Simplilearn classes\day5\Assignment7\Assignment7\obj\Debug\Assignment7.exe
+D:\Simplilearn classes\day5\Assignment7\Assignment7\obj\Debug\Assignment7.pdb
