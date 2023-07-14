@@ -11,28 +11,39 @@ namespace Assignment7
     {
         static void Main(string[] args)
         {
-            ArrayList arrayList = new ArrayList();
-            arrayList.Add("apple");
-            arrayList.Add("banana");
-            arrayList.Add("cherry");
-            arrayList.Add("date");
-            arrayList.Add("elderberry");
-            Console.WriteLine("Total number of elements: " + arrayList.Count);
-            bool containsDate = arrayList.Contains("date");
-            Console.WriteLine("ArrayList contains 'date': " + containsDate);
-
-            arrayList.Insert(1, "fig");
-
-            arrayList.Remove("banana");
-
-            Console.WriteLine("Elements in the ArrayList:");
-            foreach (object element in arrayList)
+            ArrayList fruits = new ArrayList();
+            Console.WriteLine("Enter fruits (one per line, empty line to stop):");
+            string input;
+            while (!string.IsNullOrEmpty(input = Console.ReadLine()))
             {
-                Console.WriteLine(element);
+                fruits.Add(input);
+            }
+            Console.WriteLine("Total number of elements: " + fruits.Count);
+            Console.WriteLine("ArrayList contains 'date': " + fruits.Contains("date"));
+            Console.WriteLine("Enter the fruit to insert:");
+            string fruitToInsert = Console.ReadLine();
+            Console.WriteLine("Enter the index to insert at:");
+            int insertIndex = int.Parse(Console.ReadLine());
+            fruits.Insert(insertIndex, fruitToInsert);
+            Console.WriteLine("After Insertion of fruits:");
+            foreach (object fruit in fruits)
+            {
+                Console.WriteLine(fruit);
+
+            }
+            Console.WriteLine("Enter the fruit to remove:");
+            string fruitToRemove = Console.ReadLine();
+            fruits.Remove(fruitToRemove);
+            Console.WriteLine("Elements in the ArrayList:");
+            foreach (object fruit in fruits)
+            {
+                Console.WriteLine(fruit);
+
             }
             Console.ReadKey();
         }
     }
 }
-    
+
+
 
